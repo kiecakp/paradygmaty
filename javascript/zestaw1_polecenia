@@ -1,13 +1,13 @@
-## ------ Zadanie 3 ------
+------ Zadanie 3 ------
 
-Zapoznaj się ze sposobami konstruowania funkcji: https://kursjs.pl/kurs/super-podstawy/funkcje. Napisz funkcję printNumbers(nr), która wymagać będzie liczby. Funkcja powinna zwrócić tekst, który będzie składał się  
+Zapoznaj się ze sposobami konstruowania funkcji: https://kursjs.pl/kurs/super-podstawy/funkcje. Napisz funkcję printNumbers(nr), która wymagać będzie liczby. Funkcja powinna zwrócić tekst, który będzie składał się
 z kolejnych liczb.
 
 
 ------ Zadanie 4 ------
 
-Stwórz funkcję generateRandom(min, max), która będzie przyjmować dwie wartości - min i max. Funkcja powinna zwrócić losową liczbę z podanego przedziału. Do generowania losowej liczby możesz użyć wzoru Math.floor(Math.random()*(max-min+1)+min).
-
+Stwórz funkcję generateRandom(min, max), która będzie przyjmować dwie wartości - min i max. Funkcja powinna zwrócić losową liczbę z podanego przedziału. Do generowania losowej liczby możesz użyć wzoru 
+Math.floor(Math.random()*(max-min+1)+min).
 Wykorzystaj ją do utworzenia 10 liczb z przedziału 1 - 20. Jeżeli połowa z nich będzie większa od 10, wypisz tekst udało się, w przeciwnym razie wypisz w konsoli tekst niestety nie.
 
 
@@ -18,17 +18,18 @@ Zapoznaj się ze sposobami przetwarzania napisów: https://kursjs.pl/kurs/super-
 
 ------ Zadanie 6 ------
 
-Zapoznaj się ze sposobami działania na tablicach: https://kursjs.pl/kurs/super-podstawy/tablice. Stwórz funkcję random(max), która będzie zwracać losową liczbę z zakresu 0 - max. Wykorzystaj tą funkcję do wygenerowania 20-elementowej tablicy. Posortuj tą tablicę, a następnie wypisz sumę oraz średnią wszystkich liczb z tej tablicy.
+Zapoznaj się ze sposobami działania na tablicach: https://kursjs.pl/kurs/super-podstawy/tablice. Stwórz funkcję random(max), która będzie zwracać losową liczbę z zakresu 0 - max. Wykorzystaj tą funkcję do wygenerowania 
+20-elementowej tablicy. Posortuj tą tablicę, a następnie wypisz sumę oraz średnią wszystkich liczb z tej tablicy.
 
 
 ------ Zadanie 7 ------
 
-Biorąc pod uwagę tablicę liczb całkowitych nums posortowaną w porządku niemalejącym, usuń duplikaty w miejscu, tak aby każdy unikalny element pojawił się tylko raz. Względna kolejność elementów powinna pozostać taka sama. Następnie zwróć liczbę unikalnych elementów w nums.
-
-Rozważmy, że liczba unikalnych elementów numswynosi k, aby uzyskać akceptację, należy wykonać następujące czynności:
-
-    Zmienić tablicę numsw taki sposób, aby pierwsze k elementów nums zawierało unikalne elementy w kolejności, w jakiej były one początkowo obecne w nums. Pozostałe elementy nums nie mają znaczenia, podobnie jak rozmiar nums.
-    Zwraca k.
+Biorąc pod uwagę tablicę liczb całkowitych nums posortowaną w porządku niemalejącym, usuń duplikaty w miejscu, tak aby każdy unikalny element pojawił się tylko raz. Względna kolejność elementów powinna pozostać
+taka sama. Następnie zwróć liczbę unikalnych elementów w nums.
+Rozważmy, że liczba unikalnych elementów nums wynosi k, aby uzyskać akceptację, należy wykonać następujące czynności:
+  - Zmienić tablicę numsw taki sposób, aby pierwsze k elementów nums zawierało unikalne elementy w kolejności, w jakiej były one początkowo obecne w nums. Pozostałe elementy nums nie mają znaczenia, podobnie jak 
+    rozmiar nums.
+  - Zwraca k.
 
 Przykład:
 
@@ -41,7 +42,6 @@ Wyjaśnienie: Twoja funkcja powinna zwrócić k = 2, przy czym pierwsze dwa elem
 ------ Zadanie 8 ------
 
 Napisz funkcję znajdującą najdłuższy wspólny ciąg prefiksów w tablicy ciągów. Jeśli nie ma wspólnego prefiksu, zwróć pusty ciąg.
-
 
 Przykład 1:
 
@@ -103,11 +103,9 @@ const arr = [
 
 W starych notatkach znajdujesz tylko krótki ciąg, który ponoć wskazuje kierunek poruszania się po powyższym zapisie.
 
-
 const str = "rrrdddllddrrruuuurrddrruurddddlld";
 
 Twoim zadaniem jest zdekodować ukrytą informację. Dekodowanie rozpoczynasz w lewym górnym rogu, a następnie powinieneś się poruszać zgodnie z literami, gdzie r oznacza prawo, d dół, l lewo, a u górę.
-
 Po pobraniu kodów z odpowiednich miejsc zamień je na litery za pomocą String.fromCharCode(x). Wynikiem powinien być wypisane w konsoli hasło.
 
 
@@ -135,7 +133,6 @@ Założenia
 ------ Zadanie 12 ------
 
 Wspinasz się po schodach. Dotarcie na szczyt zajmuje n kroków. Za każdym razem można pokonać 1 lub 2 stopnie. Na ile różnych sposobów można wspiąć się na szczyt?
-
 
 Przykład 1:
 
