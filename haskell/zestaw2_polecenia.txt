@@ -10,7 +10,8 @@ Skorzystaj z mechanizmu składania list w celu utworzenia tabliczki mnożenia. T
 
 ---------- Zadanie 5 ----------
 
-Napisz funkcję, która generuje dwuelementowe krotki z wszystkimi możliwymi kombinacjami dwóch kolorów ze zbioru {black, white, blue, yellow, red}. Wyeliminuj wyniki typu (red,red) oraz powtórzenia typu (red, yellow) - (yellow, red).
+Napisz funkcję, która generuje dwuelementowe krotki z wszystkimi możliwymi kombinacjami dwóch kolorów ze zbioru {black, white, blue, yellow, red}. Wyeliminuj wyniki typu (red,red) oraz powtórzenia typu
+(red, yellow) - (yellow, red).
 
 
 ---------- Zadanie 6 ----------
