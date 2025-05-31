@@ -1,6 +1,7 @@
------- Zadanie 3 ------
+## ------ Zadanie 3 ------
 
-Zapoznaj się ze sposobami konstruowania funkcji: https://kursjs.pl/kurs/super-podstawy/funkcje. Napisz funkcję printNumbers(nr), która wymagać będzie liczby. Funkcja powinna zwrócić tekst, który będzie składał się z kolejnych liczb.
+Zapoznaj się ze sposobami konstruowania funkcji: https://kursjs.pl/kurs/super-podstawy/funkcje. Napisz funkcję printNumbers(nr), która wymagać będzie liczby. Funkcja powinna zwrócić tekst, który będzie składał się  
+z kolejnych liczb.
 
 
 ------ Zadanie 4 ------
