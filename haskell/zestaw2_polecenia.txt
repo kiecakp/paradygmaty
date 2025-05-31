@@ -1,0 +1,48 @@
+---------- Zadanie 3 ----------
+
+Napisz funkcję, która pobiera listę i zwraca tę samą listę z elementami w odwróconej kolejności, nie korzystając z gotowej funkcji reverse.
+
+
+---------- Zadanie 4 ----------
+
+Skorzystaj z mechanizmu składania list w celu utworzenia tabliczki mnożenia. Tabela powinna być listą złożoną z trójelementowych krotek. Pierwsze dwa elementy to liczby z zakresu 1..12, a trzeci to ich iloczyn.
+
+
+---------- Zadanie 5 ----------
+
+Napisz funkcję, która generuje dwuelementowe krotki z wszystkimi możliwymi kombinacjami dwóch kolorów ze zbioru {black, white, blue, yellow, red}. Wyeliminuj wyniki typu (red,red) oraz powtórzenia typu (red, yellow) - (yellow, red).
+
+
+---------- Zadanie 6 ----------
+
+Napisz następujące funkcje dla list:
+
+a) append l m , która konkatenuje listy l i m,
+
+b) member x l , która sprawdza, czy x jest elementem listy l,
+
+c) last l, która znajduje ostatni element w liście,
+
+d) delete x l, która skasuje element x z listy l
+
+e) split x l , która podzieli listę l do dwóch list l1 i l2. l1 zawiera elementy mniejsze niż x a l2 elementy większe niż x.
+
+
+---------- Zadanie 7 ----------
+
+Napisz funkcję filter p l, której wartością zwracaną jest lista wszystkich elementów listy l , które spełnią predykat p. Jaki ma typ funkcja filter?
+
+
+---------- Zadanie 8 ----------
+
+Napisz funkcję onlyEven, która przyjmuje listę liczb całkowitych i zwraca listę zawierającą tylko liczby parzyste.
+
+
+---------- Zadanie 9 ----------
+
+Napisz funkcję doubleAll, która przyjmuje listę liczb całkowitych i zwraca listę, w której każda liczba jest podwojona.
+
+
+---------- Zadanie 10 ----------
+
+Napisz funkcję sumOfDigits, która dla danej liczby całkowitej zwróci sumę jej cyfr.
