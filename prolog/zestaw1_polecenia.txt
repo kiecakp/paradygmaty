@@ -1,14 +1,11 @@
 -------- Zadanie 2 --------
 
-Napisz program w Prologu, który pozwoli na pokolorowanie pięciu sąsiadujących ze sobą województw (Podkarpackie, Lubelskie, Mazowieckie, Podlaskie i Warmińsko-Mazurskie), w taki sposób, aby województwa które są sąsiadami, nie posiadały tego samego koloru. Użyj w tym celu tylko trzech kolorów.
-
-
-
+Napisz program w Prologu, który pozwoli na pokolorowanie pięciu sąsiadujących ze sobą województw (Podkarpackie, Lubelskie, Mazowieckie, Podlaskie i Warmińsko-Mazurskie), w taki sposób, aby województwa
+które są sąsiadami, nie posiadały tego samego koloru. Użyj w tym celu tylko trzech kolorów.
 
 -------- Zadanie 3 --------
 
 Napisz program obliczający największy wspólny dzielnik dwóch dodatnich liczb całkowitych nww(X, Y, Nww) za pomocą algorytmu Euklidesa z odejmowaniem wg algorytmu zapisanego imperatywnie:
-
 
 function nww(x, y)
 	while x ≠ y do
@@ -19,26 +16,21 @@ function nww(x, y)
 
 -------- Zadanie 4 --------
 
-Fabryka produkuje kilka różnych produktów, nazwijmy je p1, p2 i p3. Produkty są produkowane ze składników, które nazwijmy s1, s2, s3 i s4. Zbuduj prologową bazę danych, która będzie przechowywała następujące informacje:
+Fabryka produkuje kilka różnych produktów, nazwijmy je p1, p2 i p3. Produkty są produkowane ze składników, które nazwijmy s1, s2, s3 i s4. Zbuduj prologową bazę danych, która będzie przechowywała
+następujące informacje:
 
 a) opis każdego produktu, wyszczególniający które składniki są potrzebne do jego produkcji (na ogół produkt nie wymaga użycia wszystkich składników).
-
 b) spis dostępnych w tej chwili składników.
 
-
 Następnie zdefiniuj dwie relacje:
-
 a) moznaprodukowac(X) — stwierdzająca, że fabryka posiada wszystkie składniki potrzebne do wyprodukowania produktu X.
-
 b) potrzebuje(X, Y) — stwierdzająca, że produkt X potrzebuje składnika Y.
 
 Całość należy zaprogramować nie używając bezpośrednio list.
 
-
 -------- Zadanie 5 --------
 
 Wykonaj polecenia:
-
 
 ?- append([olej], [woda], [olej, woda]).
 
@@ -48,32 +40,26 @@ Wykonaj polecenia:
 
 Jakie zastosowania ma instrukcja append?
 
-
 -------- Zadanie 6 --------
 
 Wykonaj polecenia:
-
 
 ?- select(X,[1,2,3],L).
 ?- select(a,L,[1,2,3]).
 
 Jakie zastosowanie ma instrukcja select?
 
-
 -------- Zadanie 7 --------
 
 Zdefiniuj predykat należy(X, Lista), który sprawdza, czy element X należy do listy Lista. Na przykład należy(a, [a, b, c]). powinno zwrócić true.
-
 
 -------- Zadanie 8 --------
 
 Zdefiniuj predykat długość(Lista, Dł), który oblicza długość listy Lista i zapisuje ją w Dł.
 
-
 -------- Zadanie 9 --------
 
 Napisz predykat suma(Lista, S), który oblicza sumę wszystkich elementów w liście Lista i zapisuje wynik w S.
-
 
 -------- Zadanie 10 --------
 
